@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "json-server": "^1.0.0-beta.1",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0"
+  },
+  "name": "weather_app",
+  "description": "A new Flutter project.",
+  "version": "1.0.0",
+  "main": "eslint.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

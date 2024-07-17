@@ -1,0 +1,55 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    },
+    {
+      "source": "location",
+      "codebase": "data",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "weatherapp-2d38b",
+          "appId": "1:494687317351:android:26da79b5872b15ec6413c2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "weatherapp-2d38b",
+          "configurations": {
+            "android": "1:494687317351:android:26da79b5872b15ec6413c2",
+            "ios": "1:494687317351:ios:1a1b31bf413043276413c2",
+            "macos": "1:494687317351:ios:1a1b31bf413043276413c2",
+            "web": "1:494687317351:web:19f0970496fbd2c76413c2",
+            "windows": "1:494687317351:web:10ee1178f2b1ed236413c2"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}

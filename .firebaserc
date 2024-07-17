@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "weatherapp-2d38b",
+    "location": "weatherapp-2d38b"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,17 @@
+{
+    "favorites": [
+      {
+        "id": 1,
+        "userId": "user123",
+        "city": "New York",
+        "temperature": 25
+      },
+      {
+        "id": 2,
+        "userId": "user123",
+        "city": "Los Angeles",
+        "temperature": 30
+      }
+    ]
+  }
+  
